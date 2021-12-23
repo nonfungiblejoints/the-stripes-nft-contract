@@ -5,7 +5,7 @@ pragma solidity ^0.8.7;
 import "contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "contracts/access/Ownable.sol";
 
-contract TheStripesNFT is ERC721Enumerable, Ownable {
+contract nonfungiblejoints is ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     string public baseURI;
